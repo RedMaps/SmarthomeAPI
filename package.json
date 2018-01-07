@@ -1,0 +1,28 @@
+{
+  "name": "smarthomeapi",
+  "version": "1.0.0",
+  "description": "api for my smarthome interface",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedMaps/SmarthomeAPI.git"
+  },
+  "author": "RedMap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedMaps/SmarthomeAPI/issues"
+  },
+  "homepage": "https://github.com/RedMaps/SmarthomeAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "net": "^1.0.2"
+  }
+}
